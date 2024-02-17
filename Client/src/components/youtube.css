@@ -1,0 +1,36 @@
+/*Vidio Area Stylesheet*/
+
+.YoutubeVidiosWrapper {
+background: #fff;
+padding: 50px;
+}
+
+.SingleVidioWrapper{
+    background: #f3f2f3;
+    box-shadow: 4px 0px 13px rgba(158, 158, 158, 0.12);
+    margin-bottom: 30px;
+    max-height: 393px;
+    overflow: hidden;
+}
+.VidioInfoWrapper{
+    padding: 10px 20px;
+    text-align: left;
+}
+.VidioDesc{
+    font-size: .6em;
+    color: #676767;
+}
+.VidioTitle{
+    font-weight: 700;
+    line-height: 1.2em;
+
+}
+.VidioTitle a{
+    color: #000;
+}
+.VidioThumbnail:hover {
+    /* Add your desired hover effect styles here */
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
